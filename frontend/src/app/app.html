@@ -1,0 +1,15 @@
+<h1>Task Management App</h1>
+
+<h2>Tasks from Express Backend</h2>
+
+@if (tasks.length > 0) {
+  @for (task of tasks; track task.id) {
+    <div>
+      <strong>{{ task.title }}</strong>
+      -
+      {{ task.completed ? 'Completed' : 'Pending' }}
+    </div>
+  }
+} @else {
+  <p>No tasks found.</p>
+}
