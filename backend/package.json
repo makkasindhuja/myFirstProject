@@ -1,0 +1,23 @@
+{
+  "name": "task-management-backend",
+  "version": "1.0.0",
+  "description": "Express backend for the Full Stack Task Management application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "api",
+    "task-management"
+  ],
+  "author": "Sindhuja Makka",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "type": "commonjs"
+}
